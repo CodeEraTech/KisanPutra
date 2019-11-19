@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_my_transaction"
+            style="@style/Hyperlink"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:text="@string/my_transaction"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@drawable/wallet_icon" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:text="REMAINING BALANCE"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_remaining_balance"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:text="\u20B9 0.0"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:text="RECHARGE YOURE WALLET"
+            android:textColor="@color/black_1"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edt_select_rs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Rs."
+            android:textColor="@color/black"
+            android:layout_margin="5dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:paddingBottom="1dp">
+
+            <TextView
+                android:id="@+id/txt_add_500"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="+500"
+                android:layout_margin="2dp"
+                android:padding="3dp"
+                android:textAlignment="center"
+                android:textColor="@color/black_1"
+                android:background="@drawable/rs_back"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txt_add_1000"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="+1000"
+                android:layout_margin="2dp"
+                android:padding="3dp"
+                android:textAlignment="center"
+                android:textColor="@color/black_1"
+                android:background="@drawable/rs_back"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txt_add_2000"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="+2000"
+                android:layout_margin="2dp"
+                android:padding="3dp"
+                android:textAlignment="center"
+                android:textColor="@color/black_1"
+                android:background="@drawable/rs_back"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/txt_add_2500"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="+2500"
+                android:layout_margin="2dp"
+                android:padding="3dp"
+                android:textAlignment="center"
+                android:textColor="@color/black_1"
+                android:background="@drawable/rs_back"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/btn_add_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add MONEY"
+            android:padding="5dp"
+            android:background="@drawable/red_rounded_coronor"
+            android:textColor="@color/white"
+            android:layout_margin="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#439A24</color>
+    <color name="colorPrimaryDark">#439A24</color>
+    <color name="colorAccent">#245512</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#E6E7E3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green1">#439A24</color>
+    <color name="green_common">#429925</color>
+    <color name="green_text">#449B26</color>
+    <color name="green_btn">#439926</color>
+    <color name="login_edit_bg">#E6E7E3</color>
+    <color name="colorBlack4a">#4a4a4a</color>
+
+    <color name="grayf9">#f9f9f9</color>
+    <color name="blackee">#eeeeee</color>
+    <color name="black66">#666666</color>
+    <color name="voilet_6f00ff">#6f00ff</color>
+    <color name="black_43">#43434c</color>
+    <color name="black_4a">#4a4a4a</color>
+    <color name="light_sky">#44cbce</color>
+    <color name="white_f8">#f8f8f8</color>
+    <color name="pink">#f53954</color>
+    <color name="grey">#6c6c6c</color>
+    <color name="grey1">#a4a4a4</color>
+    <color name="grey2">#e0e0e0</color>
+    <color name="red">#ea3831</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="voilet_473d8c">#473d8c</color>
+    <color name="black9b">#9b9b9b</color>
+
+    <color name="gray_66">#666666</color>
+    <color name="gray_f5">#F5F5F5</color>
+    <color name="gray_d8">#d8d8d8</color>
+    <color name="gray_7e">#7e7e7e</color>
+    <color name="black48">#484848</color>
+    <color name="star_normal">#c2c2c2</color>
+    <color name="star_activated">#f5a623</color>
+    <color name="black_1c">#1c1c1c</color>
+    <color name="grey_dc">#dcdcdc</color>
+    <color name="sky">#e8f1f5</color>
+    <color name="mdtp_transparent_black">#7f000000</color>
+    <color name="oreng">#fa3f01</color>
+    <color name="blue">#493bb7</color>
+    <color name="sky_blue">#4B91E9</color>
+    <color name="green_1">#69bd0c</color>
+    <color name="kesar_1">#f5a623</color>
+    <color name="red_1">#d0021b</color>
+    <color name="grey_1">#505050</color>
+    <color name="grey_2">#aaaaaa</color>
+    <color name="black_1">#393939</color>
+    <color name="black_777">#777777</color>
+    <color name="grey_eee">#eeeeee</color>
+    <color name="black_333">#333333</color>
+    <color name="red_stock">#C84452</color>
+    <color name="image_selection_tint">#4f9a9a9a</color>
+
+    <color name="orange_in_address">#F05D37</color>
+
+</resources>

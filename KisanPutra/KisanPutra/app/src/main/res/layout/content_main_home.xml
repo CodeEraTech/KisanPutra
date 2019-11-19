@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.activities.HomeActivity"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/app_bar_main">
+
+
+      <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/homeContainer"
+              android:layout_above="@id/fluidBottomNavigation">
+
+      </FrameLayout>
+
+      <com.tenclouds.fluidbottomnavigation.FluidBottomNavigation
+              android:id="@+id/fluidBottomNavigation"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              app:height="?attr/actionBarSize"
+              app:accentColor="@color/green_common"
+              app:backColor="@color/backColor"
+              app:iconSelectedColor="@color/iconSelectedColor"
+              app:iconColor="@color/gray_7e"
+              app:textColor="@color/colorPrimaryDark"
+              android:layout_alignParentBottom="true"
+      />
+
+</RelativeLayout>

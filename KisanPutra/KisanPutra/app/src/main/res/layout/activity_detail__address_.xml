@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="DetailAddressBinding">
+        <import type="android.view.View"/>
+        <variable name="model" type="com.shambhu.kisanputra.data.models.DetailAddressModel"/>
+    </data>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.activities.Detail_Address_Activity">
+
+    <include layout="@layout/app_bar_main"
+    android:id="@+id/tablayout"/>
+
+    <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.60"
+                  android:padding="@dimen/margin_8"
+                  android:orientation="vertical">
+
+<!--        <FrameLayout-->
+<!--                xmlns:map="http://schemas.android.com/apk/res-auto"-->
+<!--                android:id="@+id/mapView"-->
+<!--                android:name="com.google.android.gms.maps.SupportMapFragment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_marginBottom="@dimen/dimen_22dp" />-->
+
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/fragment_home_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            map:mapType="normal"
+            android:minHeight="150dp"
+            map:uiCompass="true"
+            map:uiRotateGestures="true"
+            map:uiScrollGestures="true"
+            map:uiTiltGestures="true"
+            map:uiZoomControls="false"
+            map:uiZoomGestures="true"
+            android:layout_marginBottom="@dimen/dimen_22dp"/>
+
+        <androidx.cardview.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/dimen_10dp"
+                android:layout_marginBottom="@dimen/dimen_5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:layout_marginRight="@dimen/fab_margin">
+
+
+            <EditText
+                android:id="@+id/edt_delivery_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_5dp"
+                android:background="@drawable/edittext_back"
+                android:clickable="true"
+                android:drawableRight="@drawable/pencil"
+                android:editable="false"
+                android:hint="Address"
+                android:padding="@dimen/dimen_8dp"
+                android:textSize="15sp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.30"
+                  android:padding="@dimen/margin_8"
+                  android:orientation="vertical">
+
+        <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_50dp"
+                android:layout_marginTop="8dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <RadioButton
+                    android:id="@+id/rb_appartment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_apartm"
+                    android:layout_marginRight="2dp"
+                    android:text="Apartment"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:background="@drawable/radio_bg_selector_address"
+                    android:textColor="@drawable/radio_text_blacknwhite" />
+
+            <RadioButton
+                    android:id="@+id/rbhome"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="@dimen/dimen_15dp"
+                    android:layout_marginLeft="2dp"
+                    android:text="Individual"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_apartm"
+                    android:background="@drawable/radio_bg_selector_address"
+                    android:textColor="@drawable/radio_text_blacknwhite" />
+
+        </RadioGroup>
+
+        <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="horizontal">
+
+            <LinearLayout
+
+                    android:id="@+id/building_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <EditText
+                        android:id="@+id/edt_building_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:ems="10"
+                        android:hint="Building Name"
+                        android:inputType="textPersonName"
+
+                />
+
+                <EditText
+                    android:id="@+id/edt_flate_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Enter Flat no"
+                        android:inputType="textPersonName"
+                />
+            </LinearLayout>
+
+            <LinearLayout
+
+                    android:id="@+id/landmark_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <EditText
+                        android:id="@+id/landmark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:ems="10"
+                        android:hint="Enter house no./street/landmark"
+                        android:inputType="textPersonName"
+
+                />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.10"
+                  android:gravity="center">
+
+    <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="#429925"
+            android:text="Continue"
+            android:paddingLeft="@dimen/dimen_50dp"
+            android:paddingRight="@dimen/dimen_50dp"
+            android:onClick="onClick"
+        />
+
+    </LinearLayout>
+
+    <!-- Progress Bar used to show continuous Loader over Screen -->
+    <include
+            android:id="@+id/progress_layout"
+            layout="@layout/layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+</LinearLayout>
+</layout>

@@ -1,0 +1,108 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.shambhu.kisanputra"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+
+        debug {
+            /* Debug */
+            //buildConfigField "String", 'SERVER_URL', '"http://www.mymeetingdesk.com:3111/docs/"'
+            /* Staging */
+            buildConfigField "String", 'SERVER_URL', '"http://ec2-54-237-247-192.compute-1.amazonaws.com/"'
+        }
+        staging {
+            buildConfigField "String", 'SERVER_URL', '"http://ec2-54-237-247-192.compute-1.amazonaws.com/"'
+            debuggable = true
+            multiDexEnabled = true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", 'SERVER_URL', '"http://ec2-54-237-247-192.compute-1.amazonaws.com/"'
+        }
+    }
+    dataBinding {
+        enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation "android.arch.lifecycle:extensions:$rootProject.archLifecycleVersion"
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    kapt "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
+
+    /** Multidex **/
+    implementation 'com.android.support:multidex:1.0.3'
+
+    /** Retrofit **/
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //interceptor
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+
+    /* GLide */
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    /** RxJAVA **/
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+
+    // DAGGER 2
+    implementation 'com.google.dagger:dagger-android:2.17'
+    implementation 'com.google.dagger:dagger-android-support:2.17'
+    annotationProcessor 'com.google.dagger:dagger-android-processor:2.17'
+    kapt 'com.google.dagger:dagger-android-processor:2.17'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.17'
+    kapt 'com.google.dagger:dagger-compiler:2.17'
+
+    /*Location */
+    implementation "com.google.android.gms:play-services-location:17.0.0"
+    implementation 'com.github.DMGDesignUK:DmgLocationUtils:v1.0.1'  // location lib
+    implementation 'com.google.android.libraries.places:places:2.0.0'
+
+    /*Navigation Project*/
+    implementation(name: "fluidbottomnavigation-debug", ext: "aar")
+
+    implementation project(path: ':social')
+    implementation 'com.facebook.android:account-kit-sdk:5.+'
+    implementation(name: "truesdk-0.7-releasePartner", ext: "aar")
+
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'com.squareup:android-times-square:1.6.5@aar'
+}

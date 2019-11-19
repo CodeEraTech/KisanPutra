@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.Add_to_Cart_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/green1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <RelativeLayout style="@style/match">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Add Money To Proceed"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="1dp"
+                android:weightSum="10"
+                android:background="@color/black">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:background="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/dimen_50dp"
+                    android:layout_marginRight="0.5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cart Amount \u20B9"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txt_cart_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="200" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginLeft="0.5dp"
+                    android:background="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="@dimen/dimen_50dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wallet Amount \u20B9"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/txt_Wallet_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="0" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_2"
+                android:text="@string/add_money_text"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="RECHARGE YOUR WALLET" />
+
+            <EditText
+                android:id="@+id/edt_select_rs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Rs."
+                android:textColor="@color/black"
+                android:layout_margin="3dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:paddingBottom="1dp">
+
+                <TextView
+                    android:id="@+id/txt_add_500"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="+500"
+                    android:layout_margin="2dp"
+                    android:padding="3dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/rs_back"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_add_1000"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="+1000"
+                    android:layout_margin="2dp"
+                    android:padding="3dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/rs_back"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_add_2000"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="+2000"
+                    android:layout_margin="2dp"
+                    android:padding="3dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/rs_back"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_add_2500"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:text="+2500"
+                    android:layout_margin="2dp"
+                    android:padding="3dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/rs_back"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <Button
+                android:id="@+id/btn_recharge_place_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recharge And Place Order"
+                android:padding="5dp"
+                android:background="@drawable/green_rounded_coronor"
+                android:textColor="@color/white"
+                android:layout_margin="25dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

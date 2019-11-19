@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@android:color/black</item>
+    </style>
+
+    <!-- Common Repetitive styles for layouts -->
+
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap_height">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_width">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap_weight_width" parent="wrap">
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="wrap_weight_height" parent="wrap">
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="match_weight_width" parent="match">
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="match_weight_height" parent="match">
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <!--  styles for EditText inputs on Sign up screen -->
+
+</resources>

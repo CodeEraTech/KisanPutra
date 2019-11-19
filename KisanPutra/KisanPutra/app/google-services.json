@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "305849703993",
+    "firebase_url": "https://kisanputra-ecf71.firebaseio.com",
+    "project_id": "kisanputra-ecf71",
+    "storage_bucket": "kisanputra-ecf71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305849703993:android:2ae62afd4c0e85e2",
+        "android_client_info": {
+          "package_name": "com.shambhu.kisanputra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305849703993-89h27f27kh623ivou5an0mukja2otjgt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shambhu.kisanputra",
+            "certificate_hash": "1b32944d424906544037ef62f37c1ebc34dcc2ca"
+          }
+        },
+        {
+          "client_id": "305849703993-t4nna0e775d013vki6i2t8c7hm03depl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shambhu.kisanputra",
+            "certificate_hash": "8200eb57c29dc4fefb759e4a682446b09d429286"
+          }
+        },
+        {
+          "client_id": "305849703993-mm35l1qrud1m6f6abfaapps4u4pliiun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAB6hVuO0OK9LcOKsiV78n-wTaKWdmSgo"
+        },
+        {
+          "current_key": "AIzaSyBkguMKTj8tNh329mRDa9XHlugVwmuyvCU"
+        },
+        {
+          "current_key": "AIzaSyC7M3FNcLV6Vb9HW_RDo2mAYsIsP4OW-5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305849703993-au43d2ioovsdafvg6t0n5cpu8sogiecp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

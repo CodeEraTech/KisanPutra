@@ -1,0 +1,54 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        debug {
+            /* Debug */ //buildConfigField "String", 'SERVER_URL', '"http://www.mymeetingdesk.com:3111/docs/"'
+            /* Staging */
+            buildConfigField "String", 'SERVER_URL', '"http://ec2-54-237-247-192.compute-1.amazonaws.com/"'
+        }
+        staging {
+            buildConfigField "String", 'SERVER_URL', '"http://ec2-54-237-247-192.compute-1.amazonaws.com/"'
+            debuggable = true
+            multiDexEnabled = true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", 'SERVER_URL', '"http://ec2-54-237-247-192.compute-1.amazonaws.com/"'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.facebook.android:facebook-login:[4,5)'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation(name: "truesdk-0.7-releasePartner", ext: "aar")
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

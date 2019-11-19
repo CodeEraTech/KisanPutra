@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26e017b8-2fbc-40a0-a7da-d2cadbcb1e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/libs/fluidbottomnavigation-debug.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/libs/truesdk-0.7-releasePartner.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/androidTest/java/com/shambhu/kisanputra/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/bell_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/cart_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-hdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/bell_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/cart_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/edittext_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-mdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/bell_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/cart_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xhdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/bell_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/cart_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxhdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/bell_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/cart_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/minus_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/minus_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/nav_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/plus_gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/plus_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/rupee_indian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/scedule_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/user_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/wallet_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/drawable-xxxhdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/KisanPutraApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/base/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/base/BaseFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/base/BaseModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/base/BaseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/binding/DataBindingAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/Add_to_subscription_model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/Cart_item_Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/CommonStringIntegerModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/DetailAddressModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/My_subscription_Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/UserData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/UserLocationModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/about_model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/notification_model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/Add_Cart_Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/Delete_Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/HomeProductResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/defaultAddress/GetDefaultAddress.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/defaultAddress/SetDefaultAddress.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_Add_address/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_Add_address/DetailAddAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_address/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_address/DetailAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_product/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_product/DetailProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_product/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/detail_product/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/models/response/getCart_list_model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/ApiStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/Resource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/apis/ApiCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/apis/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/apis/ApiInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/apis/AppApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/interceptor/ConnectivityStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/interceptor/NetworkInterceptor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/interceptor/RequestInterceptor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/request/LoginRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/request/PasswordRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/request/SignUpRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/request/UserProfileRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/response/BaseResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/response/JsonArrayChildResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/response/JsonArrayResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/response/JsonItemsArrayResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/response/JsonObjectChildResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/response/JsonObjectResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/rest_api/v_api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/data/temp/temp_data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/component/AppComponent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/key/ViewModelKey.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/module/ActivityModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/module/ApiModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/module/AppGlideModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/module/AppModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/module/FragmentModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/di/module/ViewModelModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/repositories/CartRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/repositories/HomeRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/repositories/UserDetailsRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Add_subscription_Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Add_subscription_Activity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Add_to_Cart_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Add_to_Money_Avtivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Addres_add_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/AppConstants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Detail_Address_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Detail_Email_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Detail_Name_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Detail_Otp_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Detail_product_Activity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/HomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/MapsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/My_subscription_Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/Notification_Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/TourMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/activities/subscription_History_Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/Address_item_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/Cart_item_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/GenericListAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/ImageViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/My_subscription_item_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/Notification_item_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/SliderViewPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/about_item_detail_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/about_item_img_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/essential_item_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/adapters/subscription_history_Adpater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/fragments/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/fragments/My_wallet_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/fragments/Tour1_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/fragments/Tour2_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/ui/fragments/Tour3_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/AppPrefs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/LinePagerIndicatorDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/LocaleHelper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/SafeClickListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/StaticData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/StringUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/utils/SystemUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/viewmodels/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/viewmodels/UserDetailsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/viewmodels/ViewModelFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/java/com/shambhu/kisanputra/viewmodels/getcartViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/anim/fadein.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/anim/fadeout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/anim/left_to_right_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/anim/left_to_right_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/anim/right_to_left.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/anim/rotate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-anydpi/bottom_cornor_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-anydpi/profile_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/facebook_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/google_plus_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/ic_anvelop_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/ic_apartm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/ic_number_input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/ic_strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/logo_2.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/nav_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/nav_schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/nav_support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/nav_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/otp_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/profile_person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/screen_bg1.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/splash_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/tour_arrow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/tour_milk.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/truecaller_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-hdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/facebook_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/google_plus_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/ic_anvelop_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/ic_apartm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/ic_number_input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/ic_strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/logo_2.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/nav_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/nav_schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/nav_support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/nav_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/otp_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/profile_person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/screen_bg1.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/splash_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/tour_arrow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/tour_milk.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/truecaller_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-mdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/facebook_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/google_plus_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/ic_anvelop_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/ic_apartm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/ic_number_input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/ic_strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/logo_2.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/nav_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/nav_schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/nav_support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/nav_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/otp_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/profile_person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/red_rounded_coronor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/rs_back.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/screen_bg1.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/splash_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/tour2bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/tour3ps.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/tour_arrow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/tour_milk.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/truecaller_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xhdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/facebook_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/google_plus_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/ic_anvelop_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/ic_apartm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/ic_number_input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/ic_strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/logo_2.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/nav_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/nav_schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/nav_support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/nav_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/otp_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/profile_person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/screen_bg1.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/splash_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/tour_arrow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/tour_milk.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/truecaller_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxhdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/facebook_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/google_plus_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/ic_anvelop_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/ic_apartm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/ic_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/ic_number_input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/ic_strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/logo_2.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/nav_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/nav_plan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/nav_schedule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/nav_support.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/nav_wallet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/otp_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/screen_bg1.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/splash_screen_bg.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/tour_arrow.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/tour_milk.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/truecaller_trans.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable-xxxhdpi/white_logo_tab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/addbtn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/custom_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/green_rounded_coronor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/hyperlink_underline.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/ic_delete.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/ic_location_on.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/radio_bg_selector_address.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/radio_text_blacknwhite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/strikethrogh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/drawable/subs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_add_money_proceed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_add_subscription.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_add_to_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_addres_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_detail__address_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_detail__email_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_detail__name_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_detail__otp_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_item_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_my_subscription.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_my_subscription_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/activity_tour1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/app_bar_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/content_main_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/custom_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/essentail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/flashsaledata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/frag_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/frag_my_wallet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/fragment_map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/fragment_tour1_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/fragment_tour2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/fragment_tour3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_about_product.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_address.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_img_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_my_subscription.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_notiification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_place.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/item_subscription_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/items_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/layout_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/menu_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/app/src/test/java/com/shambhu/kisanputra/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/import-summary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/build/generated/source/buildConfig/debug/com/atom/library_mobilepaymentsdk/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/libs/MobilePaymentSDKOutput.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/libs/secure-data.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/libs/xercesImpl-2.6.2-jaxb-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-hdpi/atomlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-hdpi/process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-mdpi/process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable-xhdpi/process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable/atom_lib_maestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable/atom_lib_master.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable/atom_lib_visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/drawable/atomlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/cc_txn_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/custom_spinner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/layout_card_payment_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/nb_txn_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/nb_webview_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/processing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/spinner_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/layout/txn_options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/values-v11/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/values-v14/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/libraryMobilePaymentSDK/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/libs/truesdk-0.7-releasePartner.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/androidTest/java/com/shambhu/social/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/SocialActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/SocialLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/SocialLoginResultListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/SocialLoginType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/TrueCallerActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/UserModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/fragment/FacebookFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/fragment/GoogleFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/fragment/LinkedInFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/fragment/TrueCallerFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/java/com/shambhu/social/fragment/TwitterFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/layout/activity_social.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/layout/activity_true_caller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/layout/fragment_true_caller.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xxhdpi/app_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/mipmap-xxxhdpi/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KisanPutra/social/src/test/java/com/shambhu/social/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___D__Data_Volume_androidworkspce_KisanPutra_KisanPutra_MPSDKTest_libraryMobilePaymentSDK_libs_MobilePaymentSDKOutput_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___D__Data_Volume_androidworkspce_KisanPutra_KisanPutra_MPSDKTest_libraryMobilePaymentSDK_libs_secure_data_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___D__Data_Volume_androidworkspce_KisanPutra_KisanPutra_MPSDKTest_libraryMobilePaymentSDK_libs_xercesImpl_2_6_2_jaxb_1_0_6_jar_unspecified_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MPSDKTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryMobilePaymentSDK/libraryMobilePaymentSDK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mPSDKTest/mPSDKTest.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="5675a675" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mPSDKTest/src/main/java/com/example/mpsdktest/MPSActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1896">
+              <caret line="446" column="76" selection-start-line="446" selection-start-column="76" selection-end-line="446" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mPSDKTest/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraryMobilePaymentSDK/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libraryMobilePaymentSDK/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mPSDKTest/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mPSDKTest/src/main/java/com/example/mpsdktest/MPSActivity.java" />
+        <option value="$PROJECT_DIR$/libraryMobilePaymentSDK/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/mPSDKTest/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/mPSDKTest/build.gradle" />
+        <option value="$PROJECT_DIR$/libraryMobilePaymentSDK/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="59" />
+    <option name="y" value="61" />
+    <option name="width" value="1077" />
+    <option name="height" value="620" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libraryMobilePaymentSDK" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libraryMobilePaymentSDK" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libraryMobilePaymentSDK" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MPSDKTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mPSDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mpsdktest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mPSDKTest" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="mPSDKTest" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26e017b8-2fbc-40a0-a7da-d2cadbcb1e7c" name="Default Changelist" comment="" />
+      <created>1574155963374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574155963374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32978722" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Android Profiler" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32978722" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/import-summary.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mPSDKTest/src/main/res/layout/mainpage.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-19/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="505" column="21" selection-start-line="505" selection-start-column="21" selection-end-line="505" selection-end-column="21" />
+          <folding>
+            <element signature="e#17919#17920#0" expanded="true" />
+            <element signature="e#17970#17971#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-19/android.jar!/javax/xml/transform/stream/StreamResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryMobilePaymentSDK/libraryMobilePaymentSDK.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mPSDKTest/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryMobilePaymentSDK/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mPSDKTest/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraryMobilePaymentSDK/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mPSDKTest/src/main/java/com/example/mpsdktest/MPSActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1896">
+          <caret line="446" column="76" selection-start-line="446" selection-start-column="76" selection-end-line="446" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

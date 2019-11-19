@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools"
+        >
+
+    <data >
+        <import type="android.view.View"/>
+        <variable
+                name="listitem"
+                type="com.shambhu.kisanputra.data.models.response.HomeProductResponse.Product"/>
+
+        <variable
+                name="itemClickListener"
+                type="com.shambhu.kisanputra.ui.adapters.GenericListAdapter.OnListItemClickListener" />
+
+        <variable name="position" type="Integer"/>
+    </data>
+
+<androidx.cardview.widget.CardView
+    android:orientation="horizontal"
+    android:elevation="@dimen/fab_margin"
+    app:cardElevation="@dimen/dimen_5dp"
+    app:cardBackgroundColor="@color/transparent"
+    app:cardMaxElevation="@dimen/dimen_0dp"
+    android:layout_marginLeft="@dimen/dimen_2dp"
+    android:layout_marginRight="@dimen/dimen_2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            app:layout_anchor="@+id/linearLayout2"
+            app:layout_anchorGravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/dimen_40dp"
+                android:layout_height="@dimen/dimen_60dp"
+                android:maxHeight="@dimen/dimen_60dp"
+                android:maxWidth="@dimen/dimen_20dp"
+                android:gravity="center"
+                android:padding="@dimen/dimen_2dp"
+                android:src="@mipmap/ic_launcher"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="H,3:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                bind:loadimage="@{``+listitem.image[0].url}" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="@dimen/dimen_2dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/producttitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{listitem.name}"
+                    android:textColor="#909091"
+                    android:textSize="@dimen/sp_16"
+                    android:textStyle="bold"
+                    bind:text="RAsna Masala" />
+
+                <TextView
+                    android:id="@+id/Quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/producttitle"
+                    android:layout_marginTop="@dimen/dimen_2dp"
+                    android:layout_marginBottom="@dimen/dimen_2dp"
+                    android:text="@{``+listitem.qty+` `+listitem.messurment}"
+                    android:textSize="@dimen/sp_11_5"
+                    bind:text="RAsna Masala safsdfsdfs " />
+
+                <TextView
+                    android:id="@+id/lessperice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Quantity"
+                    android:text="@{``+listitem.price.toString()}"
+                    android:textSize="@dimen/sp_11_5"
+                    bind:text="RAsna Masala safsdfsdfs" />
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_number_input"
+            app:layout_anchor="@id/linearLayout2"
+            android:onClick="@{(view)-> itemClickListener.onListItemClicked(listitem, null)}"
+            app:layout_anchorGravity="center|right|end" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <View
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+</layout>

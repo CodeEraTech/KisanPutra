@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/img_my_subscription"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:layout_weight="3"
+            android:src="@drawable/ic_strawberry" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <TextView
+                    android:id="@+id/txt_item_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:text="Item Name"
+                    android:textColor="@color/black_1"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_item_prise"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/rupee_indian"
+                    android:text="34"
+                    android:textColor="@color/black_1"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/txt_item_qnty"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1kg*2"
+                android:textColor="@color/black_1"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="3dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="6"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Subscription Date"
+                        android:textColor="@color/black_1"
+                        android:drawableRight="@drawable/user_icon"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Subscription End"
+                        android:textColor="@color/black_1"
+                        android:drawableRight="@drawable/user_icon"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Subscription Duration"
+                        android:drawableRight="@drawable/user_icon"
+                        android:textColor="@color/black_1"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/user_icon"
+                        android:text="Subscription Type"
+                        android:textColor="@color/black_1"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:paddingLeft="5dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/txt_subscri_date"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="22 july 2019"
+                        android:textColor="@color/black_1"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txt_subscri_end_date"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="30 july 2019"
+                        android:textColor="@color/black_1"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txt_subscri_duration"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10 Days"
+                        android:textColor="@color/black_1"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/txt_subscri_type"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daily"
+                        android:textColor="@color/black_1"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_renew"
+                android:layout_gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Renew"
+                android:textColor="@color/white"
+                android:background="@drawable/green_rounded_coronor" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_margin="5dp"/>
+</LinearLayout>

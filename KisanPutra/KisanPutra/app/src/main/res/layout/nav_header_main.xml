@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/tools">
+    <data>
+        <variable
+                name="userData"
+                type="com.shambhu.kisanputra.data.models.UserData"/>
+    </data>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:background="@color/grey_eee"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+        <ImageView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/circle"
+                android:layout_marginBottom="@dimen/margin_8"
+                />
+
+        <TextView
+                android:id="@+id/txt_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/sp_19_2"
+                android:textColor="@color/white"
+                android:background="@color/green_common"
+                android:layout_gravity="bottom"
+                tools:text="\u2022 Welcome John Deo"
+                android:text="@{``+`Welcome `+userData.name}"
+                android:padding="@dimen/margin_8"
+                />
+
+
+</FrameLayout>
+</layout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data class="Tour1">
+
+    </data>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.Tour1_Fragment">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/screen_bg1"
+        tools:context=".ui.Activities.TourMain">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/dimen_80dp"
+            android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo_2"
+            />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="0.7">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/BigTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/fresh_milk_deleivered_daily" />
+
+
+        <TextView
+            style="@style/NormalTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="@string/We_Deliver_by_7am_Everyday"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1.3">
+
+        <ImageView
+            android:id="@+id/tour_nxt_button"
+            android:layout_width="@dimen/tour_button_dim"
+            android:layout_height="@dimen/tour_button_dim"
+            android:layout_marginRight="@dimen/tour_button_margin"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/dimen_32dp"
+            android:src="@drawable/tour_arrow"
+            />
+
+        <ImageView
+            android:id="@+id/milk_img"
+            android:layout_width="@dimen/margin_250"
+            android:layout_height="@dimen/margin_250"
+            android:src="@drawable/tour_milk"
+            android:layout_alignParentBottom="true" />
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+</layout>

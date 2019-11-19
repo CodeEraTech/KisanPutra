@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.Add_to_Cart_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/green1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <RelativeLayout style="@style/match">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/edt_delivery_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:hint="Delivery Address"
+        android:clickable="true"
+        android:editable="false"
+        android:textSize="15sp"
+        android:drawableRight="@drawable/pencil"
+        android:background="@drawable/edittext_back" />
+
+    <EditText
+        android:id="@+id/edt_delivery_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_8dp"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:hint="Date"
+        android:clickable="true"
+        android:editable="false"
+        android:textSize="15sp"
+        android:drawableRight="@drawable/scedule_green"
+        android:background="@drawable/edittext_back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_5dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_margin="@dimen/dimen_5dp"
+        android:text="Cart Items" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_cart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.5" />
+
+<!--        <view-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="@color/gray"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginBottom="5dp" />-->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:weightSum="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+
+            <TextView
+                android:text="Total"
+                android:textColor="@color/green1"
+                android:textSize="@dimen/sp_15"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/txt_total_rupis"
+                android:text="@string/Rs"
+                android:textColor="@color/green1"
+                android:textSize="@dimen/sp_15"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:padding="5dp" />
+
+        </TableRow>
+
+        <TextView
+            android:id="@+id/txt_pace_order"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/dimen_10dp"
+            android:background="@drawable/edittext_back"
+            android:backgroundTint="@color/green1"
+            android:text="Place Order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_15dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

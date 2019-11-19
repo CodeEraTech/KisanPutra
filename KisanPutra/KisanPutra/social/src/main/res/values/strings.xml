@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">social</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">486351015500854</string>
+    <string name="fb_login_protocol_scheme">fb486351015500854</string>
+    <string name="partnerKey">KJxgK291bfcf78301491385867cd78d238836</string>
+    <string name="server_client_id">305849703993-au43d2ioovsdafvg6t0n5cpu8sogiecp.apps.googleusercontent.com</string>
+
+
+</resources>
